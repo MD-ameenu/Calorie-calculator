@@ -1,0 +1,34 @@
+.about-container {
+  padding: 12% 0;
+}
+
+/* FIRST DIV */
+.first-about-header, .first-about-text {
+  color: #810CA8;
+}
+
+.about-div-text {
+  padding-top: 3%;
+}
+
+.first-about-header {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 2%;
+}
+
+.first-about-text {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.first-about-image {
+  width: 70%;
+  float: right;
+}
+
+/* SECOND DIV */
+.second-about-image {
+  width: 80%;
+  float: left;
+}

@@ -1,0 +1,18 @@
+.contact-image {
+  text-align: center;
+}
+
+.contact-content {
+  padding: 15% 0 5% 0;
+  color: #810CA8;
+}
+
+.contact-header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+div.contact-button, .contact-header {
+  margin-top: 3%;
+}

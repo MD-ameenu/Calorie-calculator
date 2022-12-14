@@ -1,0 +1,436 @@
+/* PC MODE */
+.pc {
+  display: block;
+}
+
+.phone, .phone.navbar-toggler-icon {
+  display: none;
+}
+
+/* navbar */
+.logo-img {
+  width: 4rem;
+}
+
+/* COLORING */
+.navbar, .login-button:hover, .sign-in-button:hover, .first-div, .forth-div, .seventh-div, .seventh-button:hover, footer, .footer-android-button:hover, .footer-iphone-button:hover {
+  background-color: #810CA8;
+}
+
+.login-button:hover, .sign-in-button:hover, .navbar-toggler, a.nav-text, .first-header, .first-subheader, .forth-header, .card-title, .card-icon, .seventh-header, .seventh-button:hover, .footer-android-button:hover, .footer-iphone-button:hover {
+  color: white;
+}
+
+button.close-button, .login-button, .sign-in-button, .logo-text, .download-icon, .rated-icon, .third-header, .fifth-header, .fa-carousel, .seventh-button, .footer-android-button, .footer-iphone-button {
+  color: #810CA8;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 3%;
+}
+
+/* navbar buttons */
+.login-button, .sign-in-button {
+  background-color: white;
+  padding: .5rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: none;
+  margin: 0 0.3rem;
+}
+
+.login-button:hover, .sign-in-button:hover {
+  border: 1px solid white;
+}
+
+/* hamburger menu */
+.navbar-toggler {
+  margin-right: 1.5rem;
+}
+
+/* nav links */
+a.nav-text {
+  font-size: 1.4rem;
+}
+
+/* SIDEBAR */
+.sidebar-logo {
+  width: 2rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 5%;
+}
+
+.close-button {
+  border: none;
+  color: #ffa521;
+}
+
+.sidenav {
+  text-align: center;
+}
+
+a.sidebar-text {
+  color: #810CA8;
+  transition: 0.5s;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+a.sidebar-text:hover {
+  color: #2D033B;
+}
+
+/* BODY */
+/* FIRST DIV */
+.first-div {
+  padding: 10% 5% 5% 5%;
+  height: 43rem;
+  text-align: left;
+  z-index: -2;
+}
+
+.first-col, .second-col, .third-col {
+  z-index: 1
+}
+
+/* FIRST COL */
+.first-col, .third-col {
+  padding-top: 5%;
+}
+
+.first-header {
+  font-size: 4.5rem;
+  line-height: 5.2rem;
+  font-weight: 600;
+}
+
+.first-subheader {
+  margin-top: 2%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.first-buttons {
+  margin-top: 2rem;
+}
+
+.android-button, .iphone-button {
+  border: 2px solid #32cd32;
+  color: #2D033B;
+  border-radius: 6px;
+  padding: .4rem .8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.android-button, .footer-android-button {
+  margin-right: 1%;
+}
+
+.android-button:hover, .iphone-button:hover {
+  border: 2px solid #2D033B;
+  color: #ee2224;
+}
+
+/* SECOND-COL */
+.calc-image {
+  z-index: -1;
+  width: 95%;
+  float: right;
+}
+
+/* THIRD COL */
+.first-food {
+  width: 90%;
+  float: right;
+}
+
+/* SECOND DIV */
+.second-div {
+  margin: 3% 0 3% 2%;
+  width: 35%;
+}
+
+.second-span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.second-div-header, .second-div-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.fa-star {
+  color: #ffc823;
+}
+
+/* THIRD DIV */
+.third-div {
+  text-align: center;
+  padding: 5% 0 10% 0;
+}
+
+.third-header {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* FORTH-DIV */
+.forth-div {
+  padding: 3% 0 5% 0;
+  text-align: center;
+}
+
+.forth-header, .fifth-header, .sixth-header {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card-body {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.card-title, .sixth-card-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card-text {
+  color: #E5B8F4;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.forth-row1, .forth-row2 {
+  padding-top: 7%;
+}
+
+/* FIFTH DIV */
+.fifth-div {
+  padding: 3% 0;
+}
+
+.fifth-header {
+  text-align: center;
+}
+
+/* CAROUSEL */
+.carousel-item {
+  width: 50%;
+}
+
+div.carousel-container {
+  width: 50%;
+  padding: 3%;
+}
+
+.carousel-text {
+  margin: 3% 0;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #2D033B;
+}
+
+.fa-quote-right {
+  float: right;
+}
+
+/* SIXTH-DIV */
+.sixth-div {
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+.sixth-header {
+  padding: 5% 0 3% 0;
+}
+
+.sixth-header, .sixth-card-title {
+  color: #eb2521;
+}
+
+.sixth-image {
+  width: 80%;
+  height: 20rem;
+  border-radius: 12px;
+}
+
+.sixth-card-body {
+  margin-top: 5%;
+}
+
+.sixth-card-text {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2D033B;
+}
+
+/* SEVENTH-DIV */
+.seventh-container {
+  padding: 5% 0;
+}
+
+.seventh-content {
+  margin: 35% 8% 0 8%;
+}
+
+.seventh-header {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15%;
+}
+
+.seventh-button {
+  background-color: white;
+  padding: .5rem 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+}
+
+.seventh-button:hover {
+  border: 2px solid white;
+}
+
+.signup-image {
+  width: 80%;
+}
+
+/* FOOTER */
+footer {
+  color: white;
+}
+
+.footer-first-div, .footer-second-div {
+  padding: 5%;
+}
+
+.footer-logo {
+  width: 4rem;
+  margin-right: 1rem;
+}
+
+.footer-logo-text, .socials {
+  font-size: 1.5rem;
+}
+
+.socials {
+  font-weight: 500;
+  margin-top: 3%;
+}
+
+.footer-icon {
+  margin: 0 .5%;
+}
+
+.footer-icon:hover {
+  color: #2D033B;
+}
+
+/* FOOTER ICON */
+.footer-iphone-button, .footer-android-button {
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: .2rem .6rem;
+}
+
+/* footer second col */
+.footer-second-div {
+  padding: 2% 5%;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+}
+
+
+
+/* COPYRIGHT  */
+.footer-copy-text, .footer-contact-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-contact-text a {
+  float: right;
+  color: white;
+  text-decoration: none;
+}
+
+/* phone media query */
+@media (max-width: 666px) {
+
+  /* Phone version */
+  .pc {
+    display: none
+  }
+
+  .phone, .phone.navbar-toggler-icon {
+    display: block;
+  }
+
+  /* logo */
+  .logo-img {
+    width: 3rem;
+  }
+
+  /* BODY */
+  /* FIRST DIV */
+  .first-div {
+    padding: 30% 0;
+    text-align: center;
+    border-radius: 0 0 16px 16px;
+    height: 40rem;
+  }
+
+  /* FIRST COL */
+  .first-header {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .first-subheader {
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
+
+  .first-buttons {
+    margin-top: 1.5rem;
+  }
+
+  .android-button, .iphone-button {
+    padding: .2rem .4rem;
+    font-size: 1rem;
+  }
+
+  .android-button {
+    margin-right: 1%;
+  }
+
+  /* SECOND-COL */
+  .calc-image {
+    display: none;
+  }
+
+  /* THIRD COL */
+  .first-food {
+    width: 80%;
+    border-radius: 12px;
+    margin-top: 5%;
+  }
+}
